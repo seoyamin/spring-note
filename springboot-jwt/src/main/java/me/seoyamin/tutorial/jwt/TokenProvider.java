@@ -74,7 +74,7 @@ public class TokenProvider implements InitializingBean {
                 .parserBuilder()
                 .setSigningKey(key)
                 .build()
-                .parseClaimsJwt(token)
+                .parseClaimsJws(token)
                 .getBody();
 
         // claim 에서 권한 정보 빼내기
