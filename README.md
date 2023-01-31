@@ -15,7 +15,7 @@
 - 학습자료 : [인프런 스프링부트 개념정리(이론)](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/dashboard)
 <br>
 
-### 3 ) Spring Boot Security & JWT
+### 3 ) [Spring Boot Security & JWT](https://github.com/seoyamin/spring-note/tree/main/spring-security/security1)
 - 기간 : 2023.01-
 - 학습목표 : Spring Boot Security 기본, OAuth2.0, 웹 보안
 - 학습자료 : [인프런 스프링부트 시큐리티 & JWT 강의](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0#curriculum)
