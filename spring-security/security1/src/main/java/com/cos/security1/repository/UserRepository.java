@@ -7,6 +7,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // @Repository 어노테이션 없이도 IoC가 된다 (JpaRepository 상속했기 때문)
 public interface UserRepository extends JpaRepository<User, Integer> {
 
+    // JPA Query Methods
+    // findBy[어떤거] -> { select * from user where [어떤거] = findBy의 파라미터 }
 
+
+    // select * from user where username = ?
+    public User findByUsername(String username);
 
 }
