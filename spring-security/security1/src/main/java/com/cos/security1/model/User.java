@@ -22,6 +22,9 @@ public class User {
     private String email;
     private String role;       // Role_USER, ROLE_ADMIN
 
+    private String provider;
+    private String providerId;
+
     @CreationTimestamp
     private Timestamp createDate;
 
