@@ -17,6 +17,7 @@ public class PrincipalDetailsService implements UserDetailsService {
     private UserRepository userRepository;
 
     // 여기서 Authentication 내부에 UserDetails 저장되고, 이 Authentication이 ContextHolder에 저장됨
+    // 함수 종료 시 @AuthenticationPrincipal 어노테이션이 만들어짐
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User userEntity = userRepository.findByUsername(username);

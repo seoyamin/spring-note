@@ -18,11 +18,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private PrincipalOauth2UserService principalOauth2UserService;
 
-    @Bean  // 해당 메서드의 return Object를 IoC로 등록해준다.
-    public BCryptPasswordEncoder encodePwd() {
-        return new BCryptPasswordEncoder();
-    }
-
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable();
